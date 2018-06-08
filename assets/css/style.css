@@ -1,0 +1,28 @@
+body{
+	background-image: url(../images/thanos_background.jpg);
+	background-size: cover;
+}
+
+#target_score, #wins, #losses, #counter{
+	color: white;
+	z-index: 2;
+	font-size: large;
+}
+
+img{
+	width: 50px;
+}
+
+.stones{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.stone{
+
+	height: 200px;
+	width: 200px;
+ }
+
